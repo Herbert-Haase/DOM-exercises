@@ -15,15 +15,14 @@ demo.appendChild(blueh3)
 
 const blackBox = document.createElement('div');
 blackBox.classList.add('blackBox');
-blackBox.style.cssText = 'border:black; background:pink';
+blackBox.style.cssText = 'border:dotted red; background:pink';
 
 const h1 = document.createElement('h1');
 h1.textContent = "I am in a div!";
-h1.classList.add('H1');
-blackBox.appendChild('H1');
+blackBox.appendChild(h1);
 
 const p = document.createElement('p');
 p.textContent = "ME TOO";
-blackBox.appendChild('p');
+blackBox.appendChild(p);
 
-demo.appendChild("blackBox");
+demo.appendChild(blackBox);
